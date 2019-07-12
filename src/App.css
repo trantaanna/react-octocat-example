@@ -1,5 +1,24 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+
+}
+
+.profile{
+  padding: 20px;
+  flex: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+.content{
+  /*border: 1px solid green;*/
+  padding: 20px;
+  flex: 75%;
 }
 
 .App-logo {
@@ -22,6 +41,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

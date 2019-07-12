@@ -1,0 +1,88 @@
+.view-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 20px 0 0 0;
+  /* border: 2px solid green; */
+}
+
+.form-container {
+  display: flex;
+  flex: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  /* border: 2px solid red; */
+}
+
+.filter-input {
+  display: flex;
+  align-content: flex-start;
+  align-self: flex-start;
+  flex: 1 1 auto;
+  
+  /* border: 2px solid greenyellow; */
+}
+
+input {
+  width: 90%
+}
+
+.repos-view-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+  /* border: 2px solid blue; */
+}
+
+.repo-detail-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  padding: 10px;
+  border: 1px solid red;
+}
+
+.repo-detail-outter {
+  display: flex;
+  flex: row wrap;
+  
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  width: 100%;
+}
+
+.start-btn-group{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* border: 2px solid green; */
+  width: 15%;
+}
+
+
+.repo-detail {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+  padding: 10px;
+  width: 80%;
+}
+
+.repo-detail-status {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.icon-group {
+  padding: 0px 10px 0px 10px;
+}

@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: baseline;
+}
+
+.avatar {
+  width: 100%;
+  padding: 20px;
+
+}
+
+.profile h2 {
+  color: gray;
+  align-self: left
+}

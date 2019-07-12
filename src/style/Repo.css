@@ -1,0 +1,14 @@
+
+.repo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 10px;
+  width: 100%;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+}
