@@ -86,7 +86,7 @@ export default class ReposView extends Component {
         console.log("here");
         this.setState({filteredRepos: filteredRepos});
       }
-      else if(language === "All"{
+      else if(language === "All"){
         this.setState({filteredRepos: this.props.repos});
       }
     }
