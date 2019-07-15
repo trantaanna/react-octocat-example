@@ -28,7 +28,7 @@ export default class ReposView extends Component {
       filteredRepos = [...this.props.repos].filter( repo => repo.name.includes(filter));
       this.setState({filteredRepos: filteredRepos});
     }
-    else if (filter === ""){
+    else {
       this.setState({filteredRepos: this.props.repos});
     }
   }
@@ -40,9 +40,9 @@ export default class ReposView extends Component {
       filteredRepos = [...this.props.repos].filter( repo => repo.name.includes(filter)  );   
       this.setState({filteredRepos: filteredRepos});
     }
-    // else {
-    //   this.setState({filteredRepos: this.props.repos});
-    // }
+    else {
+      this.setState({filteredRepos: this.props.repos});
+    }
   }
 
   handleSelectType(type){
@@ -86,8 +86,11 @@ export default class ReposView extends Component {
         console.log("here");
         this.setState({filteredRepos: filteredRepos});
       }
+      else if(language === "All"{
+        this.setState({filteredRepos: this.props.repos});
+      }
     }
-    else if(language === "All" || language === "") {
+    else {
       this.setState({filteredRepos: this.props.repos});
     }
   
